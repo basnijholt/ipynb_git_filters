@@ -2,11 +2,11 @@
 
 Two options
 1. `ipynb_filter.py`: using `nbconvert` to remove the output
-    + No external dependencies, if you have `Jupyter notebook` installed you probably have `nbconvert`
-    - It's pretty slow
+    * `+` No external dependencies, if you have `Jupyter notebook` installed you probably have `nbconvert`
+    * `-` It's pretty slow, ~150 ms
 2. `ipynb_filter_jq.sh`: using `jq` to remove the output
-    + Very fast, ~10ms
-    - It's using an external dependency `jq` that not everyone might have.
+    * `+` Very fast, ~10 ms
+    * `-` It's using an external dependency `jq` that not everyone might have.
 
 ## Usage
 Choose option 1 or 2.
