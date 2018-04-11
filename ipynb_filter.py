@@ -6,7 +6,7 @@
 # Execute the following line in order to activate this filter:
 # python ipynb_filter.py
 #
-# Add the following line to your `.gitattributes`.
+# The following line should be in `.gitattributes`:
 # *.ipynb filter=ipynb_filter
 
 from nbconvert.preprocessors import Preprocessor
