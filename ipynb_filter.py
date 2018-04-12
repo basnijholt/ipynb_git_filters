@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # `ipynb_filter.py`:
-# This is a git filters that strips out Jupyter notebook outputs and meta data
-# using `nbconvert`.
+# This is a git filters that strips out the outputs and
+# meta data of a Jupyer notebook using `nbconvert`.
 # Execute the following line in order to activate this filter:
 # python ipynb_filter.py
 #
