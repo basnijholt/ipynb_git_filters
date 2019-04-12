@@ -8,6 +8,8 @@
 #
 # The following line should be in `.gitattributes`:
 # *.ipynb filter=ipynb_filter
+#
+# from github.com/basnijholt/ipynb_git_filters
 
 from nbconvert.preprocessors import Preprocessor
 
