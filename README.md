@@ -18,3 +18,9 @@ Choose option 1 or 2.
     * `git config filter.ipynb_filter_jq.smudge cat`
     * `git config filter.ipynb_filter_jq.required true`
     * Add the following line to your `.gitattributes`: `*.ipynb filter=ipynb_filter_jq`
+
+Option 1, from project root (fast):
+```
+wget https://raw.githubusercontent.com/basnijholt/ipynb_git_filters/master/ipynb_filter.py
+echo "*.ipynb filter=ipynb_filter" >> .gitattributes
+```
