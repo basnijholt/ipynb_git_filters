@@ -4,6 +4,7 @@
 
 * `+` No external dependencies, if you have `Jupyter notebook` installed you will have `nbconvert`
 * `-` A bit slow, ~150 ms
+* `-` need to make sure that every contributor uses it (otherwise it will result in conflicts)
 
 ## Usage, install and forget
 
